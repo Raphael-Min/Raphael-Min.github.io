@@ -5,7 +5,7 @@ function buttonPressed() {
     if (message) {
         var background = document.getElementById("background");
         background.style.background = message;
-//        alert(message);
+        alert(message);
     }
     else {
         alert("No message");
